@@ -14,7 +14,6 @@ Gem::Specification.new do |gem|
   gem.homepage = 'http://github.com/sigursoft/weather-forecast'
 
   gem.add_dependency 'google-cloud-translate', '~> 1.1'
-  gem.add_dependency 'require_all', '~> 1.5'
 
   # ensure the gem is built out of versioned files
   gem.files = Dir['{lib}/**/*', 'README*',

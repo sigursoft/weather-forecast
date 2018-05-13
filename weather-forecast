@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
-require 'require_all'
-require_rel 'lib'
+require_relative 'lib/google_translate_provider'
+require_relative 'lib/open_weather_map_provider'
+require_relative 'lib/weather_forecast'
 
 OPEN_WEATHER_MAP_APP_ID = ENV['OPEN_WEATHER_MAP_APP_ID'] || 'YOUR_ID'
 GOOGLE_CLOUD_PROJECT_ID = ENV['GOOGLE_CLOUD_PROJECT_ID'] || 'PROJECT_ID'
