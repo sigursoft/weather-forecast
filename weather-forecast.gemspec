@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |gem|
-  gem.name    = 'weather-forecast.rb'
+  gem.name    = 'weather-forecast'
   gem.version = 1.0
   gem.license = 'MIT'
   gem.date    = Date.today.to_s
