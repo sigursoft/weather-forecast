@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
 
   gem.authors  = ['Anton Kozik']
   gem.email    = 'anton.kozik@gmail.com'
-  gem.homepage = 'http://github.com/sigursoft/weather-forecast.rb'
+  gem.homepage = 'http://github.com/sigursoft/weather-forecast'
 
   gem.add_dependency 'google-cloud-translate', '~> 1.1'
 
